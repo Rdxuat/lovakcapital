@@ -1,0 +1,669 @@
+@media(max-width:1500px) {
+.footer-bg:after
+{
+    width: 28%;
+}
+}
+
+@media(max-width:1024px) {
+
+.ham-icon1 img {
+    float: right;
+    margin-top: 25px;
+}
+.footer-bg:after
+{
+    width:275px;
+}
+}
+@media (max-width: 991px) {
+/*  mysidenav  */
+
+.wrapper
+{
+    overflow:hidden;
+}
+.cross-btn {
+    text-align: right;
+    padding: 16px 14px 0px 0px;
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+}
+
+.ham-icon {
+    float: right;
+    display: block;
+}
+
+.my-sidenav {
+    width: 0px;
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    z-index: 999999999;
+    height: 100vh;
+    max-width: 0px;
+    width: 100%;
+    background-color: #c60064;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+
+.my-sidenav>ul {
+    padding: 0px 20px 0px;
+}
+
+.my-sidenav>ul>li>ul {
+    margin-top: 0px;
+    display: none;
+}
+
+.my-sidenav ul.submenu li ul.submenu {
+    display: none;
+    position: static;
+    width: 100%;
+}
+
+.my-sidenav ul {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.my-sidenav ul li {
+    border-bottom: 1px solid #fff;
+    padding: 15px 0px;
+}
+
+.my-sidenav>ul>li>ul>li {
+    border-bottom: 1px solid #fff;
+    padding: 10px 0px;
+    position: relative;
+}
+
+.my-sidenav>ul>li>ul>li::after {
+    content: '';
+    position: absolute;
+    background-image: url(../images/whitepdficon.png);
+    width: 12px;
+    height: 12px;
+    right: 0px;
+    top: 15px;
+}
+
+.my-sidenav .mbwhowearemenu li::after {
+    display: none;
+}
+
+.my-sidenav>ul>li>ul>li:last-child,
+.my-sidenav ul.submenu li ul.submenu li:last-child {
+    border-bottom: 0px;
+}
+
+.my-sidenav ul.submenu li ul.submenu li {
+    border-bottom: 1px solid #fff;
+    padding: 10px 10px;
+}
+
+.my-sidenav ul.submenu li ul.submenu li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.cross-btn1 {
+    text-align: right;
+    padding: 16px 14px 0px 0px;
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.my-sidenav .submenu-indicator-minus .submenu-indicator {
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.my-sidenav .submenu-indicator {
+    font-size: 30px;
+    position: absolute;
+    line-height: 25px;
+    right: 15px;
+}
+
+.my-sidenav>ul>li>a {
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    font-family: metroposlis-bold;
+}
+
+.my-sidenav>ul>li>ul>li>a {
+    color: #fff;
+    font-size: 16px;
+    font-family: metropolis-regular;
+}
+
+.my-sidenav>ul>li>ul>li.menu-drp1>a {
+    font-family: metropolis-regular;
+    font-size: 16px;
+}
+
+.my-sidenav>ul>li>ul>li>a img {
+    padding-right: 10px;
+    float: right;
+}
+/**/
+
+.hmsection2
+{
+    overflow:unset;
+}
+.hmsection2 .container_fluid
+{
+    display:block;
+}
+.hmsec2data
+{
+    padding-left:0px;
+    padding-top:40px;
+    max-width:100%;
+}
+.lovokcpbox
+{
+    max-width:50%;
+    margin-top:30px;
+}
+.hmsec4 .container_fluid
+{
+    display:none;
+}
+.hmsec4 .container
+{
+    position:initial;
+}
+.hmsec4 .container .col-md-6:first-child
+{
+    padding:0px;
+    height: 50vh;
+    background-image: url(../images/Family-Office.jpg);
+}
+.hmsec4 .container .col-md-6:last-child {
+    padding: 0px;
+    height: 50vh;
+    background-image: url(../images/Private-Wealth-Management.jpg);
+}
+.hmsec4 .container .col-md-6
+{
+    display:flex;
+    align-items:flex-end;
+}
+.universbox
+{
+    padding:30px;
+}
+.prfundaliser .item
+{
+    background-position:center;
+}
+.tabslide ul
+{
+    padding-left:0px;
+}
+.founderImg
+{
+    margin-bottom:30px;
+}
+section.researchrecommend .container
+{
+    display:block;
+}
+section.researchrecommend .container .col-md-5:last-child
+{
+    display:block;
+}
+.researchrecommendbox
+{
+    padding:30px;
+    margin-top:30px;
+}
+.footer-bg:after
+{
+    display:none;
+}
+.footxts p
+{
+    font-size:14px;
+}
+.hmsec4 {
+    position: relative;
+    height: auto;
+    padding-bottom: 61px;
+}
+.product-sec1 p
+{
+    display:block;
+    height:auto;
+    padding:60px 0px;
+}
+.prdct-main
+{
+   display:block;
+   padding-bottom:30px;
+}
+.prdct-img
+{
+    margin-bottom:30px;
+}
+.prdct-img img
+{
+    width:100%;
+}
+.prdct-main p
+{
+    padding-bottom:30px;
+}
+.solution-m {
+    min-height: auto;
+    margin-bottom: 30px;
+}
+.solution-m h4 span {
+    display: inline;
+}
+.solution-m
+{
+    border-right:none;
+}
+.prdct-top
+{
+ border:1px solid #e3e3e3; 
+ margin-bottom:30px;
+}
+.p-icon {
+    min-height: auto;
+    padding-top: 20px;
+}
+.pd-last-img
+{
+    margin-bottom:30px;
+}
+.g-health .col-md-3, .g-health .col-md-2
+{
+    margin-bottom:30px;
+}
+.imfr p
+{
+    padding-top:0px;
+}
+.engage-inner
+{
+    margin-bottom:30px;
+}
+.address .col-md-5 {
+    border-right: none;
+    min-height: auto;
+}
+.address-main {
+    display: flex;
+    margin-bottom: 40px;
+    min-height: auto;
+}
+.c-form {
+    padding: 0px;
+}
+.address {
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+}
+@media (max-width: 767px) {
+    p.EmailPhone a:last-child {
+    display: block;
+}
+    .sw{
+        top: 0px;
+    }
+    #profile_1 .modal-dialog, #profile_2 .modal-dialog, #profile_3 .modal-dialog, #profile_4 .modal-dialog, #profile_5 .modal-dialog, #profile_6 .modal-dialog {
+    width: 100%;
+    margin: 0px auto;
+}
+.profileDes {
+    padding-top: 30px;
+}
+.profileDes h4 {
+
+    font-size: 20px;
+    
+    
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.modal .modal-dialog{
+    margin-top: 0px!important;
+}
+.capitalIcons {
+    display: block;
+    
+}
+.capicons {
+    text-align: center;
+    margin-top: 30px;
+}
+.capicons p {
+    max-width: inherit;
+   
+}
+.aboutsection {
+    padding: 58px 0px 41px 0px;
+}
+.navbar-inverse
+{
+    background-color:transparent;
+    border:0px;
+}
+header
+{
+    background-color:#fff;
+}
+header .container
+{
+    padding:0px;
+}
+.mainNumber
+{
+    display:block;
+}
+section.hmbanner
+{
+    display:block;
+    background-image: url(../images/hmmobile-banner.jpg);
+    background-position: center;
+}
+section.hmbanner h1
+{
+    padding-left:0px;
+    padding-top:180px;
+    font-size:30px;
+}
+section.hmbanner h1 span
+{
+    font-size:22px;
+}
+.hmsection2 .container_fluid .col-md-6:first-child
+{
+    padding-right:0px;
+}
+.lovokcpbox
+{
+    max-width:100%;
+    border:0px;
+}
+.hmsec3 h2
+{
+    padding-bottom:20px;
+}
+.hmsec4 .container .col-md-6:first-child
+{
+    height: 100vh!important;
+    margin-bottom:30px;
+    background-image: url(../images/Family-Office.jpg);
+}
+.hmsec4 .container .col-md-6:last-child
+{
+    height:100vh;
+    background-image: url(../images/mbPrivate-Wealth-Management.jpg);
+}
+section.hmsec3
+{
+    padding:90px 0px 40px;
+}
+.hmsec4 p
+{
+    padding:10px 0px 0px;
+}
+.tabslide ul
+{
+    display:none;
+}
+.offer-slider-box
+{
+    bottom:20px;
+    right:20px;
+}
+.prdct-top
+{
+    border:1px solid #e3e3e3;
+    margin-top:20px;
+    padding-top:20px;
+}
+.partnerbox
+{
+    border:1px solid #e3e3e3;
+    margin:20px;
+}
+.subNumer h1
+{
+    font-size:50px;
+    text-align:center;
+}
+.subNumer
+{
+    padding-right:0px;
+    padding-bottom: 30px;
+    border:0px;
+}
+.ourFounders
+{
+    height:auto;
+}
+.founderTxt
+{
+    display:block;
+    height:auto;
+}
+.prdct-top h5
+{
+    padding-top:0px;
+}
+.foundersmltxt
+{
+    left:15px;
+    bottom:40px;
+}
+.panelteam
+{
+    max-width:100%;
+}
+.advisoryPanel .container,.advisoryPanel .col-md-12
+{
+    padding:0px;
+}
+.panelteam p
+{
+    padding-right:0px;
+}
+.founderImg a
+{
+    bottom:10px;
+    right:10px;
+}
+section.researchrecommend .container .col-md-5:first-child
+{
+    padding-left:0px;
+}
+h2.hminnerhd
+{
+    font-size:25px;
+}
+section.hmcarcoffee p
+{
+    padding-right:0px;
+}
+section.foundingTeam .hminnerhd, section.advisoryPanel .hminnerhd
+{
+    padding:0px 15px 30px;
+}
+.mediabox {
+    -webkit-box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 28%);
+    -moz-box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.28);
+    box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 28%);
+}
+.text-box-btn
+{
+    margin-left:0px;
+    margin-top:15px;
+}
+.hmnewsletterbg h3
+{
+    font-size:25px;
+}
+.hmnewsletterbg
+{
+    min-height: 550px;
+    background-image: url(../images/newsletter-img.jpg);
+    background-position: right;
+}
+.backTop
+{
+    top:30px;
+}
+.zindexing
+{
+    padding:15px;
+    background-color:#fff;
+    margin-bottom:15px;
+}
+.footxts
+{
+    padding-left:0px;
+}
+.footer-bg
+{
+    padding:0px;
+}
+.footer-btm .flort
+{
+    float:none;
+}
+.footer-btm .col-md-2,.footer-btm .col-md-4,.footer-btm .col-md-3
+{
+    padding-left:0px;
+}
+.footer-btm p
+{
+    padding-bottom:10px;
+}
+.sw
+{
+    max-width:100%;
+    margin:0px;
+}
+.prfundaliser .item1
+{
+    background-image:url(../images/mbsolution-img1.jpg);
+}
+.prfundaliser .item2
+{
+    background-image:url(../images/mbsolution-img2.jpg);
+}
+.prfundaliser .item3
+{
+    background-image:url(../images/mbsolution-img3.jpg);
+}
+.prfundaliser .item4
+{
+    background-image:url(../images/mbsolution-img4.jpg);
+}
+section.hmcarcoffee
+{
+    background-image:url(../images/mbcareers-cluture-coffee.jpg);
+    display:block;
+    padding-top:100px;
+}
+.sticky
+{
+    padding-bottom:0px;
+}
+.bannerTxt
+{
+    max-width:100%;
+}
+.bannerTxt h1
+{
+    font-size:30px;
+}
+.bannerTxt h1 span
+{
+    max-width:100%;
+    font-size:22px;
+    min-width:auto;
+}
+.capitalTxt h2
+{
+    padding-bottom:20px;
+}
+.pd-last-img
+{
+    margin-bottom:30px;
+}
+.aboutsection p
+{
+    font-size:30px;
+    line-height:35px;
+}
+.g-health
+{
+    margin-top:40px;
+}
+.product-sec1 p
+{
+    font-size:30px;
+    line-height:35px;
+}
+.inner-heading
+{
+ font-size:25px; 
+ line-height:30px;
+}
+.solution-m h4 {
+    font-size: 20px;
+    padding-bottom: 5px;
+    line-height: 26px;
+}
+.product-banner {
+    background-image: url(../images/product-banner-mbl.jpg);
+}
+.g-health {
+    background-image: url(../images/health-bg-mbl.jpg);
+}
+.prdct-main h3
+{
+    padding-left:0px;
+}
+.prdct-main p {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.career-banner {
+    background-image: url(../images/career-banner-mbl.jpg);
+}
+.proxy p, .engage-inner h3 {
+    font-size: 25px;
+    line-height: 30px;
+}
+.engage-inner
+{
+    padding:20px;
+}
+.contact-banner {
+    background-image: url(../images/contact-us-mobile-banner.jpg);
+}
+}
