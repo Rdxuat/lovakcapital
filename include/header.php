@@ -25,7 +25,7 @@
           <li><a href="career.php" class="new-navopen">Career</a></li>
          
           <li><a href="contact-us.php" class="new-navopen">Contact Us</a></li>
-          <li><a href="" class="new-navopen">
+          <li><a href="https://lovakcapital.investwell.app/app/#/login" class="new-navopen">
               Login</a></li>
       </ul>
   </div>
